@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  alpine-nginx-tutorial-hobo:
+    image: hackinglab/alpine-nginx-tutorial
+    hostname: 'hobo'
+    environment:
+      - "domainname=idocker.REALM_DOMAIN_SUFFIX"
+    env_file:
+      - ./UUID.env
+    volumes:
+      - ./UUID.gn:/goldnugget/UUID.gn
+    ports:
+      - 80:80
+
