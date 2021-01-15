@@ -1,16 +1,13 @@
-version: '3.4'
+version: '3.6'
 
 services:
-  alpine-nginx-tutorial-hobo:
-    image: REGISTRY_BASE_URL/alpine-nginx-tutorial:latest
-    hostname: 'hobo'
+  alpine-nginx-tutorial:
+    build: .
+    image: hackinglab/alpine-nginx-tutorial:3.2
     environment:
-      - "domainname=idocker.REALM_DOMAIN_SUFFIX"
-    labels:
-      - "traefik.port=80"
-      - "traefik.frontend.rule=Host:hobo.REALM_DOMAIN_SUFFIX"
-      - "traefik.protocol=http"
-    env_file:
-      - ./UUID.env
-    volumes:
-      - ./UUID.gn:/goldnugget/UUID.gn
+    - AUTHOR=e1
+    - HL_USER_USERNAME=hacker
+    ports:
+      - 80:80
+
+
