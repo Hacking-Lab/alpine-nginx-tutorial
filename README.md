@@ -16,7 +16,8 @@ This is the template alpine nginx web server image of the Hacking-Lab CTF system
 ## Build & Test
 1. `bash build.sh`
 2. `docker-compse up`
-3. browse to http://localhost/
+3. `cp 641190db-cb5e-468f-906e-cd182b2d12f3.gn.ori 641190db-cb5e-468f-906e-cd182b2d12f3.gn`
+4. browse to http://localhost/
 
 ## Testing only (without building)
 1. `docker pull hackinglab/alpine-nginx:latest`

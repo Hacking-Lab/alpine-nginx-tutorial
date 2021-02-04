@@ -9,5 +9,9 @@ services:
     - HL_USER_USERNAME=hacker
     ports:
       - 80:80
+    volumes:
+      - ./641190db-cb5e-468f-906e-cd182b2d12f3.gn:/goldnugget/641190db-cb5e-468f-906e-cd182b2d12f3.gn
+
+
 
 
