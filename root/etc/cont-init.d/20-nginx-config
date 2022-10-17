@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv bash
+#!/command/with-contenv bash
 
 source /etc/hluser
 
@@ -34,3 +34,5 @@ chmod -R 644 /etc/logrotate.d
 
 # permissions /opt/www
 chown -R $HL_USER_USERNAME:$HL_USER_USERNAME /opt/www
+
+

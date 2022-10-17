@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv sh
+#!/command/with-contenv bash
 
 echo "testing nginx config"
 /usr/sbin/nginx -t -c /config/nginx/nginx.conf; 
