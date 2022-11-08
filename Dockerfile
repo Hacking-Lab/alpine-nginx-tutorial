@@ -1,4 +1,4 @@
-FROM hackinglab/alpine-base-amd64:3.2
+FROM hackinglab/alpine-base-hl:3.2
 MAINTAINER Ivan Buetler <ivan.buetler@compass-security.com>
 
 # Add the files
