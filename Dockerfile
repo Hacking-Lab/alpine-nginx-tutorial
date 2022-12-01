@@ -14,3 +14,5 @@ RUN apk add --no-cache --update nginx \
 
 # Expose the ports for nginx
 EXPOSE 80
+
+

@@ -3,7 +3,7 @@
 This is the template alpine nginx web server image of the Hacking-Lab CTF system
 
 ## Base
-* hackinglab/alpine-base:latest
+* hackinglab/alpine-base-hl:latest
 
 ## Specifications
 * with s6 startup handling
