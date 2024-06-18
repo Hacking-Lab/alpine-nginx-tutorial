@@ -14,7 +14,7 @@ This is the template alpine nginx web server image of the Hacking-Lab CTF system
 * serving files by nginx in /opt/www
 
 ## Build & Test
-1. `docker-compse up --build`
+1. `docker compose up --build`
 2. browse to http://localhost/
 
 
